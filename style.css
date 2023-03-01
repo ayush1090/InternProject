@@ -1,0 +1,278 @@
+/* Reset Default Margin and Padding */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+/* Navigation Bar Styles */
+nav {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+nav li {
+	margin-right: 20px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Background Image with Text Section Styles */
+.bg-img {
+	background-image: url('resources/background-layer.png');
+	background-size: cover;
+	background-position: center;
+	height: 618px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+.bg-img h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px #000;
+}
+.bg-img p {
+	font-size: 1.5rem;
+}
+
+/* About Us Section Styles */
+.about {
+	padding: 50px 0;
+}
+.about h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+    text-align: center;
+	color: green;
+}
+.about p {
+	font-size: 1.1rem;
+	line-height: 1.8;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* center the container horizontally */
+}
+  
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; /* add some space between the images and their descriptions */
+}
+  
+
+/* Awards Section Styles */
+.awards {
+	padding: 50px 0;
+}
+.awards h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	color: green;
+	text-align: center;
+}
+.awards ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.awards li {
+	margin-bottom: 10px;
+	font-size: 1.1rem;
+}
+
+
+
+/* Footer Styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+footer p {
+	font-size: 1.1rem;
+}
+
+
+/* Global Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	margin: 0;
+  }
+  
+  a {
+	color: #337ab7;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+  }
+  
+  /* Section: Our Locations */
+  
+  #our-locations {
+	background-color: #f2f2f2;
+  }
+  
+  #our-locations h2 {
+	color: green;
+  }
+  
+  #our-locations h3 {
+	margin-top: 0;
+	font-weight: bold;
+	color: #333;
+  }
+  
+  #our-locations p {
+	margin-bottom: 0;
+  }
+  
+  #our-locations .row {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  #our-locations .col {
+	width: 50%;
+	padding: 20px;
+  }
+  
+  /* Section: Get in Touch */
+  
+  #get-in-touch {
+	background-color: #fff;
+  }
+  
+  #get-in-touch h2 {
+	color: green;
+	text-align: center;
+  }
+  
+  #get-in-touch p {
+	font-size: 18px;
+	margin-bottom: 20px;
+  }
+  
+  #get-in-touch form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  #get-in-touch .form-group {
+	flex-basis: 48%;
+  }
+  
+  #get-in-touch label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #333;
+  }
+  
+ 
+  
+  /* Section: Contact Us */
+  
+  #contact-us {
+	background-color: #f2f2f2;
+  }
+  
+  #contact-us h2 {
+	color: green;
+  }
+  
+  #contact-us h3 {
+	margin-top: 0;
+	font-weight: bold;
+	color: #333;
+  }
+  
+  #contact-us p {
+	margin-bottom: 0;
+  }
+  
+  #contact-us .row {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  #contact-us .col {
+	width: 100%;
+	padding: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+	#our-locations .col {
+	  width: 100%;
+	}
+  
+	#get-in-touch .form-group {
+	  flex-basis: 100%;
+	}
+  
+	#get-in-touch input[type="tel"] {
+	  width: 100%;
+	}
+  
+  }
+
+  .sections-container {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  #our-locations, #contact-us {
+	flex-basis: calc(50% - 20px);
+	padding: 20px;
+	display:flex;
+    justify-content: center;
+    padding:30px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  
+  
+  
